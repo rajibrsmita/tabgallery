@@ -55,7 +55,7 @@ body {
 .closebtn {
   position: absolute;
   top: 10px;
-  right: 15px;
+  left: : 15px;
   color: white;
   font-size: 35px;
   cursor: pointer;
@@ -72,22 +72,22 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="img_nature.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+    <img src="img_nature.jpg" alt="Nature" style="width:40%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="img_snow.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+    <img src="img_snow.jpg" alt="Snow" style="width:40%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:40%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="img_lights.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+    <img src="img_lights.jpg" alt="Lights" style="width:40%" onclick="myFunction(this);">
   </div>
 </div>
 
 <div class="container">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
+  <img id="expandedImg">
   <div id="imgtext"></div>
 </div>
 
